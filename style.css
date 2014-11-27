@@ -43,6 +43,10 @@ body {
 	text-align: right;
 }
 
+.resume-link {
+	text-align:center;
+}
+
 li {
 	padding: 0px;
 	margin: 0px;
