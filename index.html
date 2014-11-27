@@ -9,6 +9,8 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
 
 <link rel="stylesheet" href="Serif/cmun-serif.css">
+<link rel="stylesheet" href="Bright/cmun-bright.css">
+<link rel="stylesheet" href="Concrete/cmun-concrete.css">
 
 <link rel="stylesheet" href="style.css">
 
@@ -25,12 +27,17 @@ $(function() {
 		$("#resume-content").load("resume-inner.html");
 });
 </script>
-<div class="container">
-<div class="row-fluid">
-	<div id="resume-content"></div>
-</div>
-</div>
 
+<div class="container">
+	<div class="row-fluid">
+	<div class="col-xs-1"></div>
+	<div class="col-xs-10">
+		<div id="resume-content">
+		</div>
+	</div>
+	<div class="col-xs-1"></div>
+	</div>
+</div>
 </body>
 
 </html>
