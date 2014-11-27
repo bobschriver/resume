@@ -1,0 +1,49 @@
+body {
+	font-family: 'Computer Modern Serif';
+	font-size: 14px;
+	float: none;
+}
+
+.group-header {
+	font-size: 12px;
+}
+
+.group-header:first-letter {
+	font-size: 18px;
+}
+
+.item-header {
+	font-size: 16px;
+}
+
+.item-header:first-letter {
+	font-size:17px;
+}
+
+
+.item-date {
+	font-size: 13px;
+	text-align: right;
+}
+
+.offset {
+	margin-bottom:5px;
+}
+
+.bootstrap-offset {
+	margin-top: 3px;
+}
+.name-header {
+	font-size: 32px;
+	color: #007A29;
+}
+
+.link-header {
+	font-size: 13px;
+	text-align: right;
+}
+
+li {
+	padding: 0px;
+	margin: 0px;
+}
